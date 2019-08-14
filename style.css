@@ -1,0 +1,73 @@
+.report {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.report td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.report tr:nth-child(even){background-color: #f2f2f2;}
+
+.report tr:hover {background-color: #ddd;}
+
+.report th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#register_form h1 {
+  text-align: center;
+}
+.label {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    
+}
+.h1 {
+	text-align:center; 
+}
+body {
+  background: #A9D9C3;
+}
+#form {
+  width: 37%;
+  margin: 100px auto;
+  padding-bottom: 30px;
+  border: 1px solid #918274;
+  border-radius: 5px;
+  background: white;
+}
+.forminput {
+  width: 80%;
+  height: 35px;
+  margin: 5px 10%;
+  font-size: 1.1em;
+  padding: 4px;
+  font-size: .9em;
+}
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: #D83D5A;
+}
+.form_error input {
+  border: 1px solid #D83D5A;
+}
+.btn {
+  height: 35px;
+  width: 80%;
+  margin: 5px 10%;
+  color: white;
+  background: #3B5998;
+  border: none;
+  border-radius: 5px;
+}
